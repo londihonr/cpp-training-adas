@@ -1,0 +1,22 @@
+# 构建产物
+build/
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.pdb
+*.ilk
+*.exp
+CMakeCache.txt
+CMakeFiles/
+
+# 第三方框架（由课程 zip 提供，不入库）
+tests/googletest/
+tests/googlemock/
+
+# 编辑器 / 系统文件
+.vscode/
+.DS_Store
+Thumbs.db
